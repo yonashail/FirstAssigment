@@ -1,0 +1,25 @@
+4. How much water runs off the roof
+
+Algorithm
+calculate and find the result of roof dimension in inches by multiplying roof dimension by 12
+then calculate runnoff rainfall in cubic inches by multiplying roof dimension in inches by number of inches of rainfall
+then finally calculate runoff rainfall in gallons by dividing runoff rainfall in cubic inches by 231.
+
+Pseudocode
+
+DEFINE roofdimension as number
+DEFINE numberofinchesofrainfall as number
+DEFINE runoffrainfallincubicinches as number
+DEFINE runoffrainfallingallons as number
+PROMPT user for roofdimension
+  INPUT roofdimension
+PROMPT user for numberofinchesofrainfall
+  INPUT numberofinchesofrainfall
+CALCULATE roofdimensionininches =(roofdimension)*12
+  DISPLAY "roofdimensionininches"
+THEN
+CALCULATE runoffrainfallincubicinches= roofdimensionininches*numberofinchesofrainfall
+  DISPLAY "runoffrainfallincubicinches"
+CALCULATE runoffrainfallingallons = (runoffrainfallincubicinches/231)
+  PRINT "runoffrainfallingallons"
+

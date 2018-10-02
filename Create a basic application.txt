@@ -1,0 +1,14 @@
+1. Create a basic application
+
+Algorithm
+
+Add five into the number and multiply the result by 2 then subtract 7 from the multiplied result.
+
+Pseudocode 
+
+DEFINE number1 as number
+DEFINE Total as number
+PROMPT user for any number1
+    INPUT number1
+CALCULATE Total= ((number1+5)*2)-7
+    PRINT "Total"

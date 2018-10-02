@@ -1,0 +1,22 @@
+3.Find the average score
+
+Algorithm
+
+Add ten exam scores of students and put them as total then calculate the average by dividing the total by ten.
+
+pseudocode
+
+DEFINE Total as Number
+DEFINE Average as Number
+DEFINE exam score as number
+INITIALIZE Total to zero
+INITIALIZE Count to zero
+INITIALIZE Average to zero
+WHILE Count<10
+    PROMPT the user for exam score
+    INPUT exam score
+    SET Total=Total+exam score
+    Count=Count + 1
+ENDWHILE
+SET Average=Total/Count
+PRINT "Average"

@@ -1,0 +1,20 @@
+2.Add three numbers and print the total
+
+Algorithm
+ list out three different or same numbers and add them and put them as total.
+
+Pseudocode
+
+
+DEFINE number1 as number
+DEFINE number2 as number
+DEFINE number3 as number
+DEFINE Total as number
+PROMPT the user for any number1
+     INPUT number1
+PROMPT the user for any number2 
+     INPUT number2
+PROMPT the user for any number3
+     INPUT number3
+CALCULATE Total= number1+number2+number3
+     PRINT "Total"
